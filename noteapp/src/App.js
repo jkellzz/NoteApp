@@ -20,8 +20,9 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        <Editor></Editor>
         <SideNav></SideNav>
+        <Editor></Editor>
+        
       </div>
     );
 }
