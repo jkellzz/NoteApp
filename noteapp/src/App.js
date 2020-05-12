@@ -20,8 +20,19 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        <SideNav selectedNoteIndex={this.state.selectedNoteIndex} notes={this.state.notes}></SideNav>
-        <Editor></Editor>
+        <SideNav 
+        selectedNoteIndex={this.state.selectedNoteIndex} 
+        notes={this.state.notes}
+        deleteNote={this.deleteNote}
+        selectNote={this.selectNote}
+        newNote={this.newNote}></SideNav>
+        {
+          this.state.selectedNote ? 
+          <Editor selectedNote={this.state.selectedNote}
+          selectedNoteIndex={this.state.selectedNoteIndex}
+          notes={this.state.notes}
+          noteUpdate={this.noteUpdate}></Editor> : null
+        }
         
       </div>
     );
@@ -41,6 +52,12 @@ componentDidMount = () => {
     console.log(notes)
     this.setState({ notes: notes})
   })
+}
+selectNote = (note,index) => {
+  this.setState({selectedNoteIndex: index, selectedNote: note})
+}
+noteUpdate = (id, noteObj) => {
+  console.log(id,noteObj)
 }
 
 }
