@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import Editor from './components/editor/editor'
+import SideNav from './components/sidenav/sidenav'
+
 
 const firebase = require('firebase')
 
@@ -15,7 +18,12 @@ class App extends React.Component {
   }
 
   render() {
-    return(<div>Hello World</div>);
+    return(
+      <div>
+        <Editor></Editor>
+        <SideNav></SideNav>
+      </div>
+    );
 }
 
 componentDidMount = () => {
