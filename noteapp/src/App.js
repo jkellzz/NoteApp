@@ -20,7 +20,7 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        <SideNav></SideNav>
+        <SideNav selectedNoteIndex={this.state.selectedNoteIndex} notes={this.state.notes}></SideNav>
         <Editor></Editor>
         
       </div>
