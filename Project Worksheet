@@ -1,0 +1,68 @@
+# Project Overview
+
+
+## Project Links
+
+
+## Project Description
+The project has taken a turn in the middle of project week. I was working on a social media application that would have
+taken much more time than I had available to complete the project. I was lucky enought to figure this out sooner than 
+later. I have changed the project direction after some brainstorming and working with firebase. I am now going to attempt
+to create a note taking application that also has an integrated chat. I beleive this is something that I can accomplish 
+prior to the end date of Friday May 15th, 2020. 
+
+## API
+
+
+## Wireframes
+
+- Wireframe: 
+New Wireframes to come soon...
+
+
+
+### MVP/PostMVP - 5min
+    MVP:
+
+
+
+    Post MVP:
+
+
+
+
+
+
+
+
+
+##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
+
+Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
+
+| Component | Description | 
+| --- | :---: |  
+
+
+
+Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
+
+| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+|| H | hrs | hrs | hrs |
+|| H | hrs | hrs | hrs |
+|| H | hrs | hrs | hrs |
+|| H | hrs | hrs | hrs |
+|| H | hrs | hrs | hrs |
+|| H | hrs | hrs | hrs |
+|Research| H | 20hrs | 8hrs | hrs |
+|Total| | hrs | hrs | hrs |
+
+
+
+
+## Additional Libraries
+
+
+
+## Code Snippet
