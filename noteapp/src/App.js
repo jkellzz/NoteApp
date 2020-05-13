@@ -97,7 +97,7 @@ deleteNote = async (note) => {
       this.selectNote(this.state.notes[this.state.selectedNoteIndex - 1], this.state.selectedNoteIndex - 1) :
       this.setState({selectedNoteIndex: null, selectNote: null})
   }
-  firebase.firestore().collection('notes').doc(note.id).delete()
+  firebase,firestore().collection('notes').doc(note.id).delete()
 }
 
 }
