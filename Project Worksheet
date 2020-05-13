@@ -24,12 +24,15 @@ New Wireframes to come soon...
 ### MVP/PostMVP - 5min
     MVP:
 
+Editor
 
+SideNav
+
+SideNav Items
 
     Post MVP:
 
-
-
+Messaging 
 
 
 
@@ -44,6 +47,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Editor | this will be the area in which you are able to take the notes |  
 | Sidenav | the nav bar located on the left of the editor will allow you to select items | 
 | navItem | these are items located within the navbar | 
+| Messaging | Will allow users to message between eachother | 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
@@ -51,9 +55,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 |Create React App and Install Dependencies| H | 2hrs | 2hrs | 2hrs |
 |Design layout| H | 1hrs | 1hrs | 1hrs |
-|| H | hrs | hrs | hrs |
-|| H | hrs | hrs | hrs |
-|| H | hrs | hrs | hrs |
+|Editor| H | 4hrs | 4hrs | 4hrs |
+|SideNav| H | 4hrs | 4hrs | 4hrs |
+|SideNav Items| H | 5hrs | 5hrs | 5hrs |
+|Functionality| H | 15hrs | 15hrs | 15hrs |
 |React refresher| H | 5hrs | 5hrs | 5hrs |
 |Research| H | 20hrs | 20rs | 20hrs |
 |Total| | hrs | hrs | hrs |

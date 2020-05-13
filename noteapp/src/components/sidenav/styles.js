@@ -18,10 +18,10 @@ const styles = theme => ({
     },
     newNoteBut: {
       width: '100%',
-      height: '35px',
+      height: '50px',
       borderBottom: '1px solid black',
-      borderRadius: '0px',
-      backgroundColor: 'blue',
+      borderRadius: '20px',
+      backgroundColor: 'grey',
       color: 'white',
       '&:hover': {
         backgroundColor: 'blue'

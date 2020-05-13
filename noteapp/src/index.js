@@ -7,8 +7,11 @@ import * as serviceWorker from './serviceWorker';
 const firebase = require('firebase')
 require('firebase/firestore')
 
+const API_KEY =`${process.env.REACT_APP_API_KEY}`
+
+
   const firebaseConfig = {
-    apiKey: "AIzaSyBdP0mh5WYIHa8fXDFWqdYWaq5j2y4wD0A",
+    apiKey: API_KEY,
     authDomain: "noteapp-e0e5c.firebaseapp.com",
     databaseURL: "https://noteapp-e0e5c.firebaseio.com",
     projectId: "noteapp-e0e5c",
