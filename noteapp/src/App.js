@@ -87,8 +87,9 @@ newNote = async (title) => {
   this.setState({selectedNote: this.state.notes[newNoteIndex], selectedNoteIndex: newNoteIndex})
 }
 
-deleteNote = (note) => {
+deleteNote = async (note) => {
   const noteIndex = this.state.notes.indexOf(note)
+  await this.setState({notes: this.state.notes.filter(_note => _note !== note)})
   if(this.state.selectedNoteIndex === noteIndex) {
       this.setState({selectedNoteIndex: null, selectNote: null})
   } else {
