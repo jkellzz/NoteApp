@@ -87,6 +87,18 @@ newNote = async (title) => {
   this.setState({selectedNote: this.state.notes[newNoteIndex], selectedNoteIndex: newNoteIndex})
 }
 
+deleteNote = (note) => {
+  const noteIndex = this.state.notes.indexOf(note)
+  if(this.state.selectedNoteIndex === noteIndex) {
+      this.setState({selectedNoteIndex: null, selectNote: null})
+  } else {
+      this.state.notes.length > 1 ?
+      this.selectNote(this.state.notes[this.state.selectedNoteIndex - 1], this.state.selectedNoteIndex - 1) :
+      this.setState({selectedNoteIndex: null, selectNote: null})
+  }
+  firebase.firestore().collection('notes').doc(note.id).delete()
+}
+
 }
 
 export default App;

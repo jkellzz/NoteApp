@@ -81,7 +81,8 @@ class SideNav extends React.Component {
         this.props.selectNote(n, i)
     }
 
-    deleteNote = () => {
+    deleteNote = (note) => {
+        this.props.deleteNote(note)
         console.log('delete note')
     }
 }
