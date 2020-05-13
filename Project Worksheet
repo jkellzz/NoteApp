@@ -59,15 +59,18 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |SideNav| H | 4hrs | 4hrs | 4hrs |
 |SideNav Items| H | 5hrs | 5hrs | 5hrs |
 |Functionality| H | 15hrs | 15hrs | 15hrs |
+|Messaging| H | 10hrs | hrs | hrs |
 |React refresher| H | 5hrs | 5hrs | 5hrs |
 |Research| H | 20hrs | 20rs | 20hrs |
-|Total| | hrs | hrs | hrs |
+|Total| | 66hrs | hrs | hrs |
 
 
 
 
 ## Additional Libraries
-
+React quill 
+Material UI core
+Material UI icons
 
 
 ## Code Snippet
